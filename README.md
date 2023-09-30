@@ -46,11 +46,11 @@
      ```
 
 1. Create a `mathematics` package.
-     1. Initialize the `__all__` variable to the `whoami` module.
+     1. Initialize the `__all__` variable to the `whoami` module. (inside the __init.py file)
      1. Create a `whoami` module.
           1. Create a function named `getname` which returns the `__name__` variable.
      1. Create a `numbers` sub-package.
-          1. Initialize the `__all__` variable to the `whoami` and `series` modules.
+          1. Initialize the `__all__` variable to the `whoami` and `series` modules.(inside the __init.py file)
           1. Create a `whoami` module.
                1. Create a function named `getname` which returns the `__name__` variable.
           1. Create a `series` module.
@@ -62,7 +62,7 @@
                1. Create a function named `multiplication` which receives the keyword parameters `left` and `right` and returns left multiplied by right.
                1. Create a function named `division` which receives the keyword parameters `left` and `right` and returns left divided by right.
      1. Create a `geometry` sub-package.
-          1. Initialize the `__all__` variable to the `whoami`, `circle`, and `cube` modules.
+          1. Initialize the `__all__` variable to the `whoami`, `circle`, and `cube` modules.(inside the __init.py file)
           1. Create a `whoami` module.
                1. Create a function named `getname` which returns the `__name__` variable.
           1. Create a `rectangle` module.
