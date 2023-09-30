@@ -66,7 +66,6 @@ class Test08_mathematics_numbers_simple_division(unittest.TestCase):
         self.assertEqual(2.5, simple.division(left = 10, right = 4))
         print()
 
-
 if __name__ == '__main__':
     with open('test.txt', "w") as f:
         runner = unittest.TextTestRunner(f)
